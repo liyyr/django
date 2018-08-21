@@ -1,0 +1,24 @@
+1.首先安装Python
+Python对Django对应关系
+Django 版本	Python 版本
+1.11	2.7，3.4，3.5，3.6
+2.0	3.4，3.5，3.6，3.7
+2.1，2.2	3.5，3.6，3.7
+
+2.安装Django（Windows安装方式）
+a.安装虚拟环境
+pip install virtualenvwrapper-win
+b.为项目创建虚拟环境
+mkvirtualenv myproject
+c.进入项目
+workon myproject
+d.安装Django
+pip install django
+
+安装完成后，可以使用下面语句检查对应版本
+django-admin --version
+
+若要验证 Django 是否能被 Python 识别，可以在 shell 中输入 python
+>>> import django
+>>> print(django.get_version())
+2.1
