@@ -1,24 +1,24 @@
-1.Ê×ÏÈ°²×°Python
-Python¶ÔDjango¶ÔÓ¦¹ØÏµ
-Django °æ±¾	Python °æ±¾
-1.11	2.7£¬3.4£¬3.5£¬3.6
-2.0	3.4£¬3.5£¬3.6£¬3.7
-2.1£¬2.2	3.5£¬3.6£¬3.7
+ï»¿1.é¦–å…ˆå®‰è£…Python
+Pythonå¯¹Djangoå¯¹åº”å…³ç³»
+Django ç‰ˆæœ¬	Python ç‰ˆæœ¬
+1.11	2.7ï¼Œ3.4ï¼Œ3.5ï¼Œ3.6
+2.0	3.4ï¼Œ3.5ï¼Œ3.6ï¼Œ3.7
+2.1ï¼Œ2.2	3.5ï¼Œ3.6ï¼Œ3.7
 
-2.°²×°Django£¨Windows°²×°·½Ê½£©
-a.°²×°ÐéÄâ»·¾³
+2.å®‰è£…Djangoï¼ˆWindowså®‰è£…æ–¹å¼ï¼‰
+a.å®‰è£…è™šæ‹ŸçŽ¯å¢ƒ
 pip install virtualenvwrapper-win
-b.ÎªÏîÄ¿´´½¨ÐéÄâ»·¾³
+b.ä¸ºé¡¹ç›®åˆ›å»ºè™šæ‹ŸçŽ¯å¢ƒ
 mkvirtualenv myproject
-c.½øÈëÏîÄ¿
+c.è¿›å…¥é¡¹ç›®
 workon myproject
-d.°²×°Django
+d.å®‰è£…Django
 pip install django
 
-°²×°Íê³Éºó£¬¿ÉÒÔÊ¹ÓÃÏÂÃæÓï¾ä¼ì²é¶ÔÓ¦°æ±¾
+å®‰è£…å®ŒæˆåŽï¼Œå¯ä»¥ä½¿ç”¨ä¸‹é¢è¯­å¥æ£€æŸ¥å¯¹åº”ç‰ˆæœ¬
 django-admin --version
 
-ÈôÒªÑéÖ¤ Django ÊÇ·ñÄÜ±» Python Ê¶±ð£¬¿ÉÒÔÔÚ shell ÖÐÊäÈë python
+è‹¥è¦éªŒè¯ Django æ˜¯å¦èƒ½è¢« Python è¯†åˆ«ï¼Œå¯ä»¥åœ¨ shell ä¸­è¾“å…¥ python
 >>> import django
 >>> print(django.get_version())
 2.1
